@@ -18,7 +18,7 @@
 #include "EbpSerial.h"
 #include "EEPROM.h"
 
-#define ADDRESS_HIGH 0b0010
+#define ADDRESS_HIGH 0b0001
 #define SWEEP_TIME 3000
 #define SWEEP_ANGLE 60
 
