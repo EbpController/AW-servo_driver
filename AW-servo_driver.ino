@@ -6,7 +6,7 @@
 // the 6 AW servomotors are connected to the Arduino pwm outputs: pins 3, 5, 6, 9, 10 and 11
 // the 6 AW relays are connected to the Arduino outputs: pins 2, 4, 7, 8, 12 and 13
 // the relay output follows the position of the AW and can be used for general purpose
-// for communication, to control the AW, we use the TFM daisy chain bus
+// for communication, to control the AW, we use the EbpSerial bus
 //
 // written by: Jan van Hooydonk
 //
