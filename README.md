@@ -1,7 +1,9 @@
 # AW-servo_driver
-'AW-servo driver' is a driver for the 'EBP Controller' project
+'AW-servo driver' is an Arduino Uno/Nano turnout (switch) driver for the 'EBP Controller' project
 
 EbpSerial must be included (refer to https://github.com/EbpController/EbpSerial)
+
+The 10-bit address is composed as follow: 0b0001 (fixed value) + reversed value of port C bit 0 to bit 5 (e.g. pin A0 to GND makes address = 65)
 
 Protocol for transmitting data is as follow: In the 6 bit data word, bit 0 = AW position (0 = left, 1 = right), bit 1 to bit 3 = AW number (value = 0 to 5)
 
