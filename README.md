@@ -1,6 +1,8 @@
 # AW-servo_driver
 'AW-servo driver' is an Arduino Uno/Nano turnout (switch) driver for the 'EBP Controller' project
 
+In 'AW-servo_driver.ino', it's posible to modify the 'sweep time' (default=1000ms) and 'sweep angle' (default=90°) by changing the values 'SWEEP_TIME' and 'SWEEP_ANGLE'
+
 EbpSerial must be included (refer to https://github.com/EbpController/EbpSerial)
 
 The 10-bit address is composed as follow: 0b0001 (fixed value) + reversed value of port C bit 0 to bit 5 (e.g. pin A0 to GND makes address = 65)
